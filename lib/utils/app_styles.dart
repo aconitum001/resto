@@ -12,6 +12,12 @@ abstract class AppStyles {
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w600,
   );
+
+  static TextStyle styleRegular16 = TextStyle(
+    fontSize: getResponsiveFontSize(fontsize: 16),
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.normal,
+  );
   static TextStyle styleRegular6 = TextStyle(
     fontSize: getResponsiveFontSize(fontsize: 6),
     fontFamily: 'Montserrat',
@@ -29,6 +35,12 @@ abstract class AppStyles {
   );
   static TextStyle styleBold14 = TextStyle(
     fontSize: getResponsiveFontSize(fontsize: 14),
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.bold,
+  );
+
+  static TextStyle styleBold16 = TextStyle(
+    fontSize: getResponsiveFontSize(fontsize: 16),
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.bold,
   );

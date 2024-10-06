@@ -6,6 +6,10 @@ class Assets {
   /// assets/images/cucamber.png
   static const String assetsImagesCucamber = "assets/images/cucamber.png";
 
+  /// Assets for assetsImagesFilter
+  /// assets/images/filter.svg
+  static const String assetsImagesFilter = "assets/images/filter.svg";
+
   /// Assets for assetsImagesFruit
   /// assets/images/fruit.png
   static const String assetsImagesFruit = "assets/images/fruit.png";
@@ -13,6 +17,14 @@ class Assets {
   /// Assets for assetsImagesIngridien
   /// assets/images/Ingridien.png
   static const String assetsImagesIngridien = "assets/images/Ingridien.png";
+
+  /// Assets for assetsImagesNotification
+  /// assets/images/notification.svg
+  static const String assetsImagesNotification = "assets/images/notification.svg";
+
+  /// Assets for assetsImagesSearch
+  /// assets/images/search.svg
+  static const String assetsImagesSearch = "assets/images/search.svg";
 
   /// Assets for assetsImagesSideDishes
   /// assets/images/side_dishes.png
