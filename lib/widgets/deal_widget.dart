@@ -32,7 +32,7 @@ class DealWidget extends StatelessWidget {
     if (width < 400) {
       return -(width * 0.13);
     } else {
-      return -(width * 0.01);
+      return -(width * 0.0001);
     }
   }
 }
