@@ -39,6 +39,12 @@ abstract class AppStyles {
     fontWeight: FontWeight.bold,
   );
 
+  static TextStyle styleBold24 = TextStyle(
+    fontSize: getResponsiveFontSize(fontsize: 24),
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.bold,
+  );
+
   static TextStyle styleBold16 = TextStyle(
     fontSize: getResponsiveFontSize(fontsize: 16),
     fontFamily: 'Montserrat',

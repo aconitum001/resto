@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:resto/widgets/home_view_category_section.dart';
+import 'package:resto/widgets/home_view_deal_section.dart';
 import 'package:resto/widgets/home_view_header.dart';
 import 'package:resto/widgets/home_view_search_section.dart';
 
@@ -21,7 +23,15 @@ class HomeViewBody extends StatelessWidget {
           SizedBox(
             height: 13,
           ),
-          HomeViewSearchSection()
+          HomeViewSearchSection(),
+          SizedBox(
+            height: 15,
+          ),
+          HomeViewCategorySection(),
+          SizedBox(
+            height: 15,
+          ),
+          HomeViewDealSection(),
         ],
       ),
     );
