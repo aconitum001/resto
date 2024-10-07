@@ -16,6 +16,7 @@ class HomeViewBody extends StatelessWidget {
         horizontal: 24,
       ),
       child: CustomScrollView(
+        clipBehavior: Clip.none,
         slivers: [
           SliverToBoxAdapter(
             child: Column(
