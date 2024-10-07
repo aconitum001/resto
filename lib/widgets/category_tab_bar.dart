@@ -12,6 +12,9 @@ class CategoryTabBaar extends StatelessWidget {
     return TabBar(
       isScrollable: true,
       dividerColor: Colors.transparent,
+      overlayColor: WidgetStatePropertyAll(
+        AppColors.primaryColor.withOpacity(.2),
+      ),
       tabAlignment: TabAlignment.start,
       indicatorColor: AppColors.primaryColor,
       dividerHeight: 0,
