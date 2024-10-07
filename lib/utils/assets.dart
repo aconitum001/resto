@@ -22,9 +22,17 @@ class Assets {
   /// assets/images/fruit.png
   static const String assetsImagesFruit = "assets/images/fruit.png";
 
+  /// Assets for assetsImagesFruitBig
+  /// assets/images/fruit_big.png
+  static const String assetsImagesFruitBig = "assets/images/fruit_big.png";
+
   /// Assets for assetsImagesIngridien
   /// assets/images/Ingridien.png
   static const String assetsImagesIngridien = "assets/images/Ingridien.png";
+
+  /// Assets for assetsImagesIngridientBig
+  /// assets/images/Ingridient_big.png
+  static const String assetsImagesIngridientBig = "assets/images/Ingridient_big.png";
 
   /// Assets for assetsImagesMeat
   /// assets/images/meat.png
@@ -53,6 +61,10 @@ class Assets {
   /// Assets for assetsImagesSpice
   /// assets/images/spice.png
   static const String assetsImagesSpice = "assets/images/spice.png";
+
+  /// Assets for assetsImagesSpiceBig
+  /// assets/images/spice_big.png
+  static const String assetsImagesSpiceBig = "assets/images/spice_big.png";
 
   /// Assets for assetsImagesVegtebals
   /// assets/images/vegtebals.png
